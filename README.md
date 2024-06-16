@@ -58,11 +58,19 @@ You can access the dashboard [here](https://lookerstudio.google.com/reporting/fb
 
 ## Running the Machine Learning System
 
-### Prototype System Overview
-The prototype machine learning system has been developed to predict students at risk of dropout based on historical data and identified factors. Due to current technical constraints (Streamlit being down), the prototype is currently only runnable locally.
+### Setup environment
+```
+pip install streamlit
+```
 
+### Run steamlit app
+```
+streamlit run dashboard.py
+atau
+python -m streamlit run dashboard.py
+```
 ### Access the Prototype
-The prototype system can be accessed [here](https://your-prototype-link).
+The prototype system can be accessed online [here](https://your-prototype-link).
 
 ## Conclusion
 
