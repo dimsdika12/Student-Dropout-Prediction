@@ -70,7 +70,7 @@ atau
 python -m streamlit run dashboard.py
 ```
 ### Access the Prototype
-The prototype system can be accessed online [here](https://your-prototype-link).
+The prototype system can be accessed online [here](https://student-dropout-prediction-hvz3rgfhwdiqvlmpjhcuaw.streamlit.app/).
 
 ## Conclusion
 
