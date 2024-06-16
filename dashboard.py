@@ -6,15 +6,15 @@ import numpy as np
 st.title("Student Dropout Prediction")
 
 # Load model
-model = joblib.load("model\logreg.joblib")
+model = joblib.load("model/logreg.joblib")
 
 # Load scalers
-scaler_tuition_fees = joblib.load("model\scaler_Tuition_fees_up_to_date.joblib")
-scaler_scholarship_holder = joblib.load("model\scaler_Scholarship_holder.joblib")
-scaler_curricular_units_1st_sem_approved = joblib.load("model\scaler_Curricular_units_1st_sem_approved.joblib")
-scaler_curricular_units_1st_sem_grade = joblib.load("E:\project\streamlit_dash\model\scaler_Curricular_units_1st_sem_grade.joblib")
-scaler_curricular_units_2nd_sem_approved = joblib.load("model\scaler_Curricular_units_2nd_sem_approved.joblib")
-scaler_curricular_units_2nd_sem_grade = joblib.load("model\scaler_Curricular_units_2nd_sem_grade.joblib")
+scaler_tuition_fees = joblib.load("model/scaler_Tuition_fees_up_to_date.joblib")
+scaler_scholarship_holder = joblib.load("model/scaler_Scholarship_holder.joblib")
+scaler_curricular_units_1st_sem_approved = joblib.load("model/scaler_Curricular_units_1st_sem_approved.joblib")
+scaler_curricular_units_1st_sem_grade = joblib.load("model/scaler_Curricular_units_1st_sem_grade.joblib")
+scaler_curricular_units_2nd_sem_approved = joblib.load("model/scaler_Curricular_units_2nd_sem_approved.joblib")
+scaler_curricular_units_2nd_sem_grade = joblib.load("model/scaler_Curricular_units_2nd_sem_grade.joblib")
 
 # Input form
 tuition_fees_up_to_date = st.selectbox("Tuition fees up to date", ["Yes", "No"])
