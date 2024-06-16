@@ -6,16 +6,26 @@
 Jaya Jaya Institute is an established educational institution that has been operating since 2000. Over the years, it has produced numerous graduates with a strong reputation. However, the institute faces a significant issue of high dropout rates among its students. This not only tarnishes the institution's reputation but also negatively impacts students who fail to complete their education.
 
 ### Business Problem
-The main challenge faced by Jaya Jaya Institute is the high number of students who do not complete their education, commonly referred to as dropout. Some of the key business problems to be addressed include:
-1. Identifying the factors contributing to student dropout.
-2. Developing a predictive model to detect students at risk of dropping out.
-3. Building a business dashboard that provides comprehensive insights into the dropout situation at Jaya Jaya Institute.
+The main challenge faced by Jaya Jaya Institute is the high number of students who do not complete their education, commonly referred to as dropout. This issue has several urgent implications:
+1. **Reputation Damage**: High dropout rates can harm the institution's reputation, making it less attractive to potential students and stakeholders.
+2. **Financial Loss**: Dropouts can result in significant financial losses for the institution due to the reduction in tuition fee income.
+3. **Student Welfare**: Students who dropout may face adverse long-term effects, such as limited career opportunities and lower earning potential.
+
+Understanding and addressing the factors that lead to dropout is crucial for the institute. By identifying at-risk students early, the institute can provide targeted interventions to support these students, thereby reducing dropout rates and improving overall student outcomes.
 
 ## Project Scope
-This project will encompass several key steps:
-1. **Dropout Factor Analysis**: Identifying and analyzing factors that contribute to student dropout.
-2. **Business Dashboard**: Building a dashboard to visualize real-time dropout data for management.
-3. **Dropout Prediction Model**: Developing and implementing a model to predict students likely to dropout, enabling timely intervention.
+
+This project aims to address the issue of student dropout through the following key steps:
+
+1. **Dropout Factor Analysis**: Identifying and analyzing factors that contribute to student dropout. This includes examining variables such as tuition fee payment status, scholarship status, and academic performance in both the 1st and 2nd semester curricular units.
+2. **Business Dashboard**: Building an interactive dashboard to visualize dropout data and key factors influencing dropout rates. This dashboard will provide actionable insights for management.
+3. **Dropout Prediction Model**: Developing and implementing a predictive model to identify students at risk of dropping out. This model will enable timely intervention to support at-risk students.
+
+### Deliverables:
+- **Data Analysis Report**: Detailed analysis of the factors contributing to dropout rates.
+- **Interactive Dashboard**: A business dashboard insights into dropout data.
+- **Predictive Model**: A machine learning model capable of predicting students at risk of dropping out.
+- **Prototype Deployment**: A prototype system running locally (and later, deployed online) that demonstrates the predictive capabilities.
 
 ## Preparation
 
@@ -52,29 +62,29 @@ You can access the dashboard [here](https://lookerstudio.google.com/reporting/fb
 The prototype machine learning system has been developed to predict students at risk of dropout based on historical data and identified factors. Due to current technical constraints (Streamlit being down), the prototype is currently only runnable locally.
 
 ### Access the Prototype
-The prototype system can be accessed [here](https://your-prototype-link). I will update in here
+The prototype system can be accessed [here](https://your-prototype-link).
 
 ## Conclusion
 
 In conclusion, the project has successfully identified several key factors influencing student dropout rates at Jaya Jaya Institute based on the analysis:
 1. Based on the data, 60.85% of the students graduated and 39.15% dropped out, out of a total of 3,630 students.
-2. Analysis shows that tuition fees paid up to date (Yes) correlate significantly with higher dropout rates.
-   - Tuition Fees up to Date (No): There were 457 cases of student dropout.
-   - Tuition Fees up to Date (Yes): There were 964 cases of student dropout.
-4. Scholarship holders exhibit lower dropout rates (134 cases) compared to non-scholarship holders (1,287 cases).
-5. Higher grades in both the 1st and 2nd semester curricular units are associated with higher graduation rates and lower dropout probabilities.
+2. Analysis shows that tuition fees paid up to date correlate significantly with lower dropout rates.
+3. Scholarship holders exhibit lower dropout rates (134 cases) compared to non-scholarship holders (1,287 cases).
+4. Higher grades in the 1st semester curricular units are associated with higher graduation rates and lower dropout probabilities.
+5. Higher grades in the 2nd semester curricular units similarly correlate with higher graduation rates and lower dropout probabilities.
 
 ## Recommendation Action Items
 
-### Strengthen Scholarship Programs
+###  Strengthen Scholarship Programs
 Given the significant impact of scholarships on reducing dropout rates, prioritize expanding and promoting scholarship opportunities for eligible students.
-
-### Enhance Financial Support Services
-Provide additional financial aid or flexible payment options to ensure more students can afford to pay their tuition fees on time.
 
 ### Implement Early Intervention Strategies
 Develop and implement an early warning system using the predictive model to identify students at risk of dropout early. Provide targeted interventions such as academic counseling and support programs.
 
-These action items are tailored to address the specific findings of the analysis and aim to support Jaya Jaya Institute in effectively tackling the challenge of student dropout rates.
+### Enhance Financial Support Services
+Provide additional financial aid or flexible payment options to ensure more students can afford to pay their tuition fees on time.
 
-  
+### Enhance Academic Support Programs
+Invest in academic support programs that focus on improving students' performance in both 1st and 2nd semester curricular units. Offer tutoring, study groups, and mentorship to help students achieve higher grades and reduce dropout rates.
+
+These action items are tailored to address the specific findings of the analysis and aim to support Jaya Jaya Institute in effectively tackling the challenge of student dropout rates.
